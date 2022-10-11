@@ -1,0 +1,15 @@
+name: Pull Request Target
+
+on:
+  pull_request_target:
+    branches: [ "main" ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Where am I?
+        run: ls
