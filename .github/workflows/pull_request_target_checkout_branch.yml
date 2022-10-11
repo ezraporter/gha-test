@@ -15,6 +15,3 @@ jobs:
       
       - name: Where am I?
         run: ls
-
-      - name: Another step
-        run: echo Hi!
