@@ -13,3 +13,6 @@ jobs:
       
       - name: Where am I?
         run: ls
+        
+      - name: Another step
+        run: echo This is another step that only exists on my branch
